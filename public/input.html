@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>草木喻家-植物信息录入</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <form role="form">
+
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseOne">
+                                第一部分 —— 植物名称
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="name">名称</label>
+                                <input type="text" class="form-control" id="name" placeholder="植物名称">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="indexNum">序号</label>
+                                <input type="text" class="form-control" id="indexNum" placeholder="植物序号">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="scientificName">拉丁学名</label>
+                                <input type="text" class="form-control" id="scientificName" placeholder="拉丁学名">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="alias">别名</label>
+                                <input type="text" class="form-control" id="alias" placeholder="植物别名">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="family">所属科</label>
+                                <input type="text" class="form-control" id="family" placeholder="植物所属科">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseTwo">
+                                第二部分 —— 植株特征
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="plantMorphology">植株类型</label>
+                                <input type="text" class="form-control" id="plantMorphology" placeholder="植株类型（草木藤）">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseThree">
+                                第三部分 —— 茎的特征
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="habitOfStem">茎的生长习性</label>
+                                <input type="text" class="form-control" id="habitOfStem" placeholder="茎的生长习性">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="featureOfStem">茎的特征</label>
+                                <input type="text" class="form-control" id="featureOfStem" placeholder="茎的特征（柔毛、倒刺、棱、节）">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseFour">
+                                第四部分 —— 叶的特征
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="leafInsertion">叶的着生方式</label>
+                                <input type="text" class="form-control" id="leafInsertion" placeholder="叶的着生方式">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="leafSimpleCompound">单叶/复叶</label>
+                                <input type="text" class="form-control" id="leafSimpleCompound" placeholder="单叶复叶">
+                            </div>
+
+                            <!--<div class="form-group">-->
+                            <!--<label for="leafArrangement">叶序</label>-->
+                            <!--<input type="text" class="form-control" id="leafArrangement" placeholder="叶序">-->
+                            <!--</div>-->
+
+                            <div class="form-group">
+                                <label for="leafShape">叶形</label>
+                                <input type="text" class="form-control" id="leafShape" placeholder="叶形">
+                            </div>
+
+                            <!--<div class="form-group">-->
+                            <!--<label for="leafOpex">叶尖</label>-->
+                            <!--<input type="text" class="form-control" id="leafOpex" placeholder="叶尖">-->
+                            <!--</div>-->
+
+                            <div class="form-group">
+                                <label for="leafMargin">叶缘</label>
+                                <input type="text" class="form-control" id="leafMargin" placeholder="叶缘">
+                            </div>
+
+                            <!--<div class="form-group">-->
+                                <!--<label for="leafVein">叶脉</label>-->
+                                <!--<input type="text" class="form-control" id="leafVein" placeholder="叶脉">-->
+                            <!--</div>-->
+
+                            <div class="form-group">
+                                <label for="leafWings">叶翅</label>
+                                <input type="text" class="form-control" id="leafWings" placeholder="有无叶翅">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="leafHair">被毛</label>
+                                <input type="text" class="form-control" id="leafHair" placeholder="被毛">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="leafOther">其他</label>
+                                <input type="text" class="form-control" id="leafOther" placeholder="其他特征">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseFive">
+                                第五部分 —— 花的特征
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="inflorescence">花序</label>
+                                <input type="text" class="form-control" id="inflorescence" placeholder="花序">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="basidixedAxillary">顶生/腋生</label>
+                                <input type="text" class="form-control" id="basidixedAxillary" placeholder="顶生腋生">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="colorOfCorolla">花冠颜色</label>
+                                <input type="text" class="form-control" id="colorOfCorolla" placeholder="花冠颜色">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="shapeOfCorolla">花冠形状</label>
+                                <input type="text" class="form-control" id="shapeOfCorolla" placeholder="花冠形状">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="numOfPetals">花瓣数目</label>
+                                <input type="text" class="form-control" id="numOfPetals" placeholder="花瓣数目">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="shapeOfStamensAndPistils">雌雄花形状</label>
+                                <input type="text" class="form-control" id="shapeOfStamensAndPistils" placeholder="雌雄花形状">
+                            </div>
+
+                            <!--<div class="form-group">-->
+                                <!--<label for="numOfStamensAndPistils">雌雄花数目</label>-->
+                                <!--<input type="text" class="form-control" id="numOfStamensAndPistils" placeholder="雌雄花数目">-->
+                            <!--</div>-->
+
+                            <div class="form-group">
+                                <label for="inflorescenceOfStamensAndPistils">雌雄花花序</label>
+                                <input type="text" class="form-control" id="inflorescenceOfStamensAndPistils" placeholder="雌雄花花序">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="flowerSeason">花期</label>
+                                <input type="text" class="form-control" id="flowerSeason" placeholder="花期">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseSix">
+                                第六部分 —— 果实的特征
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseSix" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="fruitingSeason">果期</label>
+                                <input type="text" class="form-control" id="fruitingSeason" placeholder="果期">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="shapeOfFruit">果实类型</label>
+                                <input type="text" class="form-control" id="shapeOfFruit" placeholder="果实类型">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="colorOfFruit">果实颜色</label>
+                                <input type="text" class="form-control" id="colorOfFruit" placeholder="果实颜色">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fruitOther">其他</label>
+                                <input type="text" class="form-control" id="fruitOther" placeholder="其他特征">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseSeven">
+                                第七部分 —— 种子的特征
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseSeven" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="shapeOfSeed">种子形状</label>
+                                <input type="text" class="form-control" id="shapeOfSeed" placeholder="种子形状">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="colorOfSeed">种子颜色</label>
+                                <input type="text" class="form-control" id="colorOfSeed" placeholder="种子颜色">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="seedOther">其他</label>
+                                <input type="text" class="form-control" id="seedOther" placeholder="其他特征">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseEight">
+                                第八部分 —— 其他描述
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseEight" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="applicationValue">应用价值</label>
+                                <textarea class="form-control" rows="3" id="applicationValue" placeholder="应用价值......"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="description">植物描述</label>
+                                <textarea class="form-control" rows="3" id="description" placeholder="植物描述......"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button type="submit" class="btn btn-default">提交</button>
+
+        </form>
+
+    </div>
+
+    <script type="text/javascript" src="javascripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+</body>
+</html>
